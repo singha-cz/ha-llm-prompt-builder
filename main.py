@@ -155,10 +155,13 @@ def main():
     OUTPUT.write_text(prompt, encoding="utf-8")
 
     tokens_est = len(prompt) // 4
-    print(f"\nPrompt uložen → {OUTPUT}  (~{tokens_est} tokenů)")
-    print("\nUkázka prvních 3 událostí v promptu:")
-    for ev in events[:3]:
-        print(f"  {ev}")
+    if len(events) > 0:
+        print(f"\nPrompt uložen → {OUTPUT}  (~{tokens_est} tokenů)")
+        print("\nUkázka prvních 3 událostí v promptu:")
+        for ev in events[:3]:
+            print(f"  {ev}")
+    else:
+        print(f"\nŽádné události k zobrazení. Prompt nebyl uložen.")
 
 if __name__ == "__main__":
     main()
