@@ -9,7 +9,7 @@ from pathlib import Path
 
 # ── Konfigurace ────────────────────────────────────────────────────────────────
 
-DB_PATH   = Path("/config/.storage/home-assistant_v2.db")  # cesta na HA hostu
+DB_PATH   = Path("/config/home-assistant_v2.db")            # cesta na HA hostu
 JSON_PATH = Path("ha_monitoring_data.json")                 # Syntenická data - fallback pro dev
 OUTPUT    = Path("ha_prompt.txt")
 
@@ -34,29 +34,43 @@ RELEVANT_ENTITIES = {
 
 def load_from_db(db_path: Path, days_back: int) -> list[dict]:
     """Načte události přímo z HA recorder.db."""
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=days_back)).isoformat()
-    conn = sqlite3.connect(db_path)
-    rows = conn.execute("""
-        SELECT entity_id, state, last_changed
-        FROM states
-        WHERE last_changed >= ?
-          AND entity_id IN ({})
-        ORDER BY last_changed
-    """.format(",".join("?" * len(RELEVANT_ENTITIES))),
-        [cutoff] + list(RELEVANT_ENTITIES)
-    ).fetchall()
-    conn.close()
-    return [{"e": r[0], "s": r[1], "t": r[2][:19] + "Z"} for r in rows]
+    cutoff_ts = (datetime.now(timezone.utc) - timedelta(days=days_back)).timestamp()
+    with sqlite3.connect(db_path) as conn:
+        rows = conn.execute("""
+            SELECT entity_id, state, last_changed_ts
+            FROM states
+            WHERE last_changed_ts >= ?
+              AND entity_id IN ({})
+            ORDER BY last_changed_ts
+        """.format(",".join("?" * len(RELEVANT_ENTITIES))),
+            [cutoff_ts] + list(RELEVANT_ENTITIES)
+        ).fetchall()
+    return [
+        {
+            "e": r[0],
+            "s": r[1],
+            "t": datetime.fromtimestamp(r[2], tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S") + "Z",
+        }
+        for r in rows
+    ]
 
 
 def load_from_json(json_path: Path) -> list[dict]:
     """Načte ze syntetického JSON (dev/testování)."""
     raw = json.loads(json_path.read_text(encoding="utf-8"))
-    return [
-        {"e": ev["entity_id"], "s": ev["state"], "t": ev["last_changed"][:19] + "Z"}
-        for ev in raw
-        if ev["entity_id"] in RELEVANT_ENTITIES
-    ]
+    if not isinstance(raw, list):
+        raise ValueError(f"JSON musí být seznam událostí, nalezeno: {type(raw).__name__}")
+    result = []
+    for ev in raw:
+        eid = ev.get("entity_id")
+        if eid not in RELEVANT_ENTITIES:
+            continue
+        state = ev.get("state")
+        ts = ev.get("last_changed")
+        if state is None or ts is None:
+            continue
+        result.append({"e": eid, "s": state, "t": ts[:19] + "Z"})
+    return result
 
 # ── Čištění ────────────────────────────────────────────────────────────────────
 
@@ -83,15 +97,15 @@ def sample(events: list[dict], max_events: int) -> list[dict]:
     aby se prompt vešel do rozumného počtu tokenů.
     Zachovává chronologické pořadí.
     """
-    if len(events) <= max_events:
+    if max_events <= 0 or len(events) <= max_events:
         return events
     step = len(events) / max_events
     return [events[int(i * step)] for i in range(max_events)]
 
 # ── Sestavení promptu ──────────────────────────────────────────────────────────
 
-SYSTEM_PROMPT = """Jsi analytik chytré domácnosti. Dostaneš chronologický log událostí \
-ze smart zařízení za posledních 14 dní. Každý záznam má tři pole:
+SYSTEM_PROMPT_TEMPLATE = """Jsi analytik chytré domácnosti. Dostaneš chronologický log událostí \
+ze smart zařízení za posledních {days} dní. Každý záznam má tři pole:
   t = timestamp (UTC ISO 8601)
   e = entity_id zařízení
   s = nový stav
@@ -114,9 +128,9 @@ Odpověz jako JSON objekt se dvěma klíči:
 Nevypisuj nic jiného než tento JSON objekt."""
 
 
-def build_prompt(events: list[dict]) -> str:
+def build_prompt(events: list[dict], days_back: int = DAYS_BACK) -> str:
     data_json = json.dumps(events, ensure_ascii=False, separators=(",", ":"))
-    return f"{SYSTEM_PROMPT}\n\nDATA:\n{data_json}"
+    return f"{SYSTEM_PROMPT_TEMPLATE.format(days=days_back)}\n\nDATA:\n{data_json}"
 
 # ── Hlavní tok ─────────────────────────────────────────────────────────────────
 
@@ -137,7 +151,7 @@ def main():
     events = sample(events, MAX_EVENTS)
     print(f"  po vzorkování: {len(events)} událostí")
 
-    prompt = build_prompt(events)
+    prompt = build_prompt(events, DAYS_BACK)
     OUTPUT.write_text(prompt, encoding="utf-8")
 
     tokens_est = len(prompt) // 4
