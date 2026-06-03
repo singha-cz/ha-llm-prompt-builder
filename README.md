@@ -1,6 +1,6 @@
 # HA LLM Prompt Builder
 
-Nástroj, který přemění historii chytrého domu na hotový prompt pro velký jazykový model — a z odpovědi dostanete YAML automatizace přímo použitelné v Home Assistant.
+Nástroj, který přemění historii chytrého domu na hotový prompt pro velký jazykový model. Na výstupu LLM bude JSON s popisem zjištěných vzorů a YAML automatizace přímo použitelné v Home Assistant.
 
 ---
 
@@ -98,4 +98,4 @@ Načítám z DB: /config/.storage/home-assistant_v2.db
 Prompt uložen → ha_prompt.txt  (~8 400 tokenů)
 ```
 
-Obsah `ha_prompt.txt` pak vložte do libovolného LLM chatu. Odpověď bude JSON s klíči `patterns` (popsané vzory) a `automations` (YAML automatizace).
+Obsah souboru `ha_prompt.txt` lze pak použít jako prompt do libovolného LLM chatu či LLM API. Odpověď bude JSON s klíči `patterns` (popsané vzory) a `automations` (YAML automatizace).
