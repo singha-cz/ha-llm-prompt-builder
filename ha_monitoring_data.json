@@ -1,0 +1,4518 @@
+[
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-05-26T06:57:01Z",
+    "last_updated": "2026-05-26T06:57:01Z",
+    "context": {
+      "id": "231B651D672041AB9E9AA38AE2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-05-26T07:01:27Z",
+    "last_updated": "2026-05-26T07:01:27Z",
+    "context": {
+      "id": "77052941EDE74D30B3B5D14DA3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-26T07:03:27Z",
+    "last_updated": "2026-05-26T07:03:27Z",
+    "context": {
+      "id": "EC24072A639148FE992AA0BC50",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-05-26T07:05:25Z",
+    "last_updated": "2026-05-26T07:05:25Z",
+    "context": {
+      "id": "D380B70537F542F1AE413E55BE",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-26T07:16:01Z",
+    "last_updated": "2026-05-26T07:16:01Z",
+    "context": {
+      "id": "47D3430781CA4EC0B9FDCE0CC3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-05-26T08:04:41Z",
+    "last_updated": "2026-05-26T08:04:41Z",
+    "context": {
+      "id": "7AAE34E9B43B4652B483228368",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-26T08:04:49Z",
+    "last_updated": "2026-05-26T08:04:49Z",
+    "context": {
+      "id": "50A17D12F23B44F1A10BD283E4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-26T08:04:54Z",
+    "last_updated": "2026-05-26T08:04:54Z",
+    "context": {
+      "id": "3FFF7AAAF8714548B56A9E8621",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-26T08:04:57Z",
+    "last_updated": "2026-05-26T08:04:57Z",
+    "context": {
+      "id": "E1558DCF07B9477CA971DC8A34",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-05-26T08:05:11Z",
+    "last_updated": "2026-05-26T08:05:11Z",
+    "context": {
+      "id": "682D5B00FB774696B7658200FF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-05-26T08:05:41Z",
+    "last_updated": "2026-05-26T08:05:41Z",
+    "context": {
+      "id": "7AE0503B11554AC0BD3BDC2344",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-05-26T08:06:11Z",
+    "last_updated": "2026-05-26T08:06:11Z",
+    "context": {
+      "id": "93B4B02513C947D5BB18C7FA8A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-05-26T08:18:46Z",
+    "last_updated": "2026-05-26T08:18:46Z",
+    "context": {
+      "id": "825BE8B8BB404BE6861F9BDEF1",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 33,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-05-26T09:31:46Z",
+    "last_updated": "2026-05-26T09:31:46Z",
+    "context": {
+      "id": "BB544240CA3A4DBCAF152D4FC7",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 49,
+      "status": "Docked"
+    },
+    "last_changed": "2026-05-26T09:34:46Z",
+    "last_updated": "2026-05-26T09:34:46Z",
+    "context": {
+      "id": "505F48FC90604BD79E37E4D130",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-05-26T17:10:08Z",
+    "last_updated": "2026-05-26T17:10:08Z",
+    "context": {
+      "id": "EB5D58F4177A4EAEA770F420E4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-26T17:10:18Z",
+    "last_updated": "2026-05-26T17:10:18Z",
+    "context": {
+      "id": "965CA94D55DE45189BE7D0BA45",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-05-26T17:10:53Z",
+    "last_updated": "2026-05-26T17:10:53Z",
+    "context": {
+      "id": "C11B74C6549D43FEBC21BC7829",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-26T17:11:01Z",
+    "last_updated": "2026-05-26T17:11:01Z",
+    "context": {
+      "id": "8D9E6A51B68B4794B436C0B758",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-05-26T17:12:02Z",
+    "last_updated": "2026-05-26T17:12:02Z",
+    "context": {
+      "id": "52AC8FE8A6CE4148B168CA44B0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-05-26T17:12:08Z",
+    "last_updated": "2026-05-26T17:12:08Z",
+    "context": {
+      "id": "094D65E5806840E691DF4EFEB0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-26T17:15:12Z",
+    "last_updated": "2026-05-26T17:15:12Z",
+    "context": {
+      "id": "BF6FE7105BA6480DA93C07977A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-05-26T17:26:37Z",
+    "last_updated": "2026-05-26T17:26:37Z",
+    "context": {
+      "id": "822F1FC6B6AC45C4A6481CE570",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-26T17:41:08Z",
+    "last_updated": "2026-05-26T17:41:08Z",
+    "context": {
+      "id": "FE57EA4F68A542B9A9313C8536",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-26T22:49:24Z",
+    "last_updated": "2026-05-26T22:49:24Z",
+    "context": {
+      "id": "C5B812EAEF6146B4AB890CFAD9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-05-26T22:51:24Z",
+    "last_updated": "2026-05-26T22:51:24Z",
+    "context": {
+      "id": "E7100D8440B3491F8C3C99D03D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-05-26T22:52:24Z",
+    "last_updated": "2026-05-26T22:52:24Z",
+    "context": {
+      "id": "70A97DCB54174A7197DB072BDE",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-26T22:53:02Z",
+    "last_updated": "2026-05-26T22:53:02Z",
+    "context": {
+      "id": "D72EB985FDC54CB380787D061F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-05-27T06:50:44Z",
+    "last_updated": "2026-05-27T06:50:44Z",
+    "context": {
+      "id": "DC44CF908DBA4DF6AC957DD6E5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-05-27T06:56:15Z",
+    "last_updated": "2026-05-27T06:56:15Z",
+    "context": {
+      "id": "C5B6BE99AD2248E1A3F0A32CE5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-27T06:58:15Z",
+    "last_updated": "2026-05-27T06:58:15Z",
+    "context": {
+      "id": "6DB99A69215C4F2E97CE96DE92",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-05-27T07:00:08Z",
+    "last_updated": "2026-05-27T07:00:08Z",
+    "context": {
+      "id": "49937E39C9604C4DA5AED55A76",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-27T07:11:33Z",
+    "last_updated": "2026-05-27T07:11:33Z",
+    "context": {
+      "id": "9BAD2B54C9E34910B977A7EE9C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-27T08:08:25Z",
+    "last_updated": "2026-05-27T08:08:25Z",
+    "context": {
+      "id": "2529145E0C814A9995993070B6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-05-27T08:08:37Z",
+    "last_updated": "2026-05-27T08:08:37Z",
+    "context": {
+      "id": "39372DC3F520438CA2381969AA",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-27T08:08:45Z",
+    "last_updated": "2026-05-27T08:08:45Z",
+    "context": {
+      "id": "8DAF3CCE082644AABDFA990A17",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-05-27T08:09:07Z",
+    "last_updated": "2026-05-27T08:09:07Z",
+    "context": {
+      "id": "7AF1B15A8FBC49DA894C8273A8",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-05-27T08:09:37Z",
+    "last_updated": "2026-05-27T08:09:37Z",
+    "context": {
+      "id": "057A728AE282457AB760A345A0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-27T08:09:39Z",
+    "last_updated": "2026-05-27T08:09:39Z",
+    "context": {
+      "id": "5CD1DD2B97674E8395CFC741BB",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-05-27T08:10:07Z",
+    "last_updated": "2026-05-27T08:10:07Z",
+    "context": {
+      "id": "C524180E0F6941B697170526CE",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-05-27T08:24:30Z",
+    "last_updated": "2026-05-27T08:24:30Z",
+    "context": {
+      "id": "BD5BE8B5B4524CC4A352D0B831",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 52,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-05-27T09:20:30Z",
+    "last_updated": "2026-05-27T09:20:30Z",
+    "context": {
+      "id": "0CE088D2B4D94A388A7808757A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 48,
+      "status": "Docked"
+    },
+    "last_changed": "2026-05-27T09:23:30Z",
+    "last_updated": "2026-05-27T09:23:30Z",
+    "context": {
+      "id": "B2594C8FDC5F488591B5EEB06E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-05-27T17:09:28Z",
+    "last_updated": "2026-05-27T17:09:28Z",
+    "context": {
+      "id": "81891E87053F47049E10FC2291",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-27T17:09:38Z",
+    "last_updated": "2026-05-27T17:09:38Z",
+    "context": {
+      "id": "BC2AE9E58CF840C3B04B0A2C4B",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-05-27T17:10:13Z",
+    "last_updated": "2026-05-27T17:10:13Z",
+    "context": {
+      "id": "856B8F858E3A46C2A25EC18A87",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-27T17:10:21Z",
+    "last_updated": "2026-05-27T17:10:21Z",
+    "context": {
+      "id": "6545810961A94E4BBDEF249D22",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-05-27T17:10:37Z",
+    "last_updated": "2026-05-27T17:10:37Z",
+    "context": {
+      "id": "5235EBD99D5F44C59A61385578",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-05-27T17:11:28Z",
+    "last_updated": "2026-05-27T17:11:28Z",
+    "context": {
+      "id": "0CB561388E5D4A3B97DE498A25",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-27T17:14:24Z",
+    "last_updated": "2026-05-27T17:14:24Z",
+    "context": {
+      "id": "11B6268270BA49259A56FAFAAA",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-05-27T17:28:13Z",
+    "last_updated": "2026-05-27T17:28:13Z",
+    "context": {
+      "id": "986220E3696B4021A3457921D2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-27T17:40:28Z",
+    "last_updated": "2026-05-27T17:40:28Z",
+    "context": {
+      "id": "3A2B81BCD46A4FE494C9CF6A40",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-27T22:50:19Z",
+    "last_updated": "2026-05-27T22:50:19Z",
+    "context": {
+      "id": "98A9698F2F7645DD8A8510BDE6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-05-27T22:52:19Z",
+    "last_updated": "2026-05-27T22:52:19Z",
+    "context": {
+      "id": "6CC68A88469E4EBBBBA09E118D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-05-27T22:53:19Z",
+    "last_updated": "2026-05-27T22:53:19Z",
+    "context": {
+      "id": "3A6E3E822CD745A38FA33C152A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-27T22:56:19Z",
+    "last_updated": "2026-05-27T22:56:19Z",
+    "context": {
+      "id": "2F4427BA18F14D1A8DB3266C5B",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-05-28T06:53:51Z",
+    "last_updated": "2026-05-28T06:53:51Z",
+    "context": {
+      "id": "3C4502F0B41A4EF792644F8455",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-05-28T06:58:22Z",
+    "last_updated": "2026-05-28T06:58:22Z",
+    "context": {
+      "id": "E3E2066BAF5D4AE886027E52E9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-28T07:00:22Z",
+    "last_updated": "2026-05-28T07:00:22Z",
+    "context": {
+      "id": "C3954303C20F44BCBB1B7AFFA0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-05-28T07:01:53Z",
+    "last_updated": "2026-05-28T07:01:53Z",
+    "context": {
+      "id": "CF866737C87D455B84D41D8283",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-28T07:13:03Z",
+    "last_updated": "2026-05-28T07:13:03Z",
+    "context": {
+      "id": "61B392BB642F4B378A369073F4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-05-28T08:07:12Z",
+    "last_updated": "2026-05-28T08:07:12Z",
+    "context": {
+      "id": "5A44D447F4B74E5DB88CDBFB49",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-28T08:07:20Z",
+    "last_updated": "2026-05-28T08:07:20Z",
+    "context": {
+      "id": "425BB16459034FB9B5E1E96597",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-28T08:07:32Z",
+    "last_updated": "2026-05-28T08:07:32Z",
+    "context": {
+      "id": "F60648272EBF4F658A713C9560",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-28T08:07:40Z",
+    "last_updated": "2026-05-28T08:07:40Z",
+    "context": {
+      "id": "5348BE694DC04EB6B8E513BFBE",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-05-28T08:07:42Z",
+    "last_updated": "2026-05-28T08:07:42Z",
+    "context": {
+      "id": "F9EDE2A13C67422A8B957CCD72",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-05-28T08:08:12Z",
+    "last_updated": "2026-05-28T08:08:12Z",
+    "context": {
+      "id": "195154A82F9B411388F9CF7D9F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-05-28T08:08:42Z",
+    "last_updated": "2026-05-28T08:08:42Z",
+    "context": {
+      "id": "9EF57FF72EA843B79D67ABA0A6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-05-28T08:21:21Z",
+    "last_updated": "2026-05-28T08:21:21Z",
+    "context": {
+      "id": "2524C98D07664EF28BC6C2D8D0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 54,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-05-28T09:17:21Z",
+    "last_updated": "2026-05-28T09:17:21Z",
+    "context": {
+      "id": "78AD24CB5C2D48D0A070172E9F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 38,
+      "status": "Docked"
+    },
+    "last_changed": "2026-05-28T09:20:21Z",
+    "last_updated": "2026-05-28T09:20:21Z",
+    "context": {
+      "id": "6E9BE5FA71B748488B4C5B7AE2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-05-28T16:59:14Z",
+    "last_updated": "2026-05-28T16:59:14Z",
+    "context": {
+      "id": "562C769FAD0A4454A55C61F013",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-28T16:59:24Z",
+    "last_updated": "2026-05-28T16:59:24Z",
+    "context": {
+      "id": "C24D794B42C24487A6D625A9AB",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-05-28T16:59:25Z",
+    "last_updated": "2026-05-28T16:59:25Z",
+    "context": {
+      "id": "B9580383E333447B9E8F354238",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-05-28T16:59:59Z",
+    "last_updated": "2026-05-28T16:59:59Z",
+    "context": {
+      "id": "309F66FF1043493E8F9DD7604F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-28T17:00:07Z",
+    "last_updated": "2026-05-28T17:00:07Z",
+    "context": {
+      "id": "6E91D8E2FAD54E15A948D07735",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-05-28T17:01:14Z",
+    "last_updated": "2026-05-28T17:01:14Z",
+    "context": {
+      "id": "7C8BAC838D8E4F1BBBC372BE4A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-28T17:04:08Z",
+    "last_updated": "2026-05-28T17:04:08Z",
+    "context": {
+      "id": "86C8942021EA4768A429E46B1F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-05-28T17:15:53Z",
+    "last_updated": "2026-05-28T17:15:53Z",
+    "context": {
+      "id": "894A05A4FF2B44D6A46C3D29FF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-28T17:30:14Z",
+    "last_updated": "2026-05-28T17:30:14Z",
+    "context": {
+      "id": "8C1D454E58994400B1A634EC0D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-28T22:47:15Z",
+    "last_updated": "2026-05-28T22:47:15Z",
+    "context": {
+      "id": "128B4944CD874787972CD26BB3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-05-28T22:49:15Z",
+    "last_updated": "2026-05-28T22:49:15Z",
+    "context": {
+      "id": "D2F7E9295286476E97627FFFCC",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-05-28T22:50:15Z",
+    "last_updated": "2026-05-28T22:50:15Z",
+    "context": {
+      "id": "E32ADE19666B40378896914E70",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-28T22:52:13Z",
+    "last_updated": "2026-05-28T22:52:13Z",
+    "context": {
+      "id": "3EBD5AB0867747F0B7C4AB883A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-05-29T06:56:42Z",
+    "last_updated": "2026-05-29T06:56:42Z",
+    "context": {
+      "id": "A2C0CD2C63FC4D40B05A56933F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-05-29T07:01:09Z",
+    "last_updated": "2026-05-29T07:01:09Z",
+    "context": {
+      "id": "9CCFBC1186084BE3A6CB9B4400",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-29T07:03:09Z",
+    "last_updated": "2026-05-29T07:03:09Z",
+    "context": {
+      "id": "3D106FBDC33946FD98346FB3F5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-05-29T07:05:46Z",
+    "last_updated": "2026-05-29T07:05:46Z",
+    "context": {
+      "id": "9CF4981FABE1417CA7E0586BEA",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-29T07:16:27Z",
+    "last_updated": "2026-05-29T07:16:27Z",
+    "context": {
+      "id": "14F096412D354363A82946D6F9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-05-29T08:07:50Z",
+    "last_updated": "2026-05-29T08:07:50Z",
+    "context": {
+      "id": "21C4B61E75104E8899C7946250",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-29T08:07:50Z",
+    "last_updated": "2026-05-29T08:07:50Z",
+    "context": {
+      "id": "3E56C26B3F444D75900251D03A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-29T08:07:58Z",
+    "last_updated": "2026-05-29T08:07:58Z",
+    "context": {
+      "id": "F250A2C916E941C19DBF6B2563",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-05-29T08:08:20Z",
+    "last_updated": "2026-05-29T08:08:20Z",
+    "context": {
+      "id": "C6D052F2DEA44A54BD2828E622",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-29T08:08:43Z",
+    "last_updated": "2026-05-29T08:08:43Z",
+    "context": {
+      "id": "21E3E13574C94F62A8707339DA",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-05-29T08:08:50Z",
+    "last_updated": "2026-05-29T08:08:50Z",
+    "context": {
+      "id": "CFF8B2D262314698A954F3A4B3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-05-29T08:09:20Z",
+    "last_updated": "2026-05-29T08:09:20Z",
+    "context": {
+      "id": "335C3C460DB74558ACC5749040",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-05-29T08:22:56Z",
+    "last_updated": "2026-05-29T08:22:56Z",
+    "context": {
+      "id": "D02806CCE91649009D95AD070F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 47,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-05-29T09:14:56Z",
+    "last_updated": "2026-05-29T09:14:56Z",
+    "context": {
+      "id": "86706EBE27024339B7CDEC1305",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 37,
+      "status": "Docked"
+    },
+    "last_changed": "2026-05-29T09:17:56Z",
+    "last_updated": "2026-05-29T09:17:56Z",
+    "context": {
+      "id": "4FA2A2E040FA4C16AB054DACF6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-05-29T17:11:39Z",
+    "last_updated": "2026-05-29T17:11:39Z",
+    "context": {
+      "id": "639DA016035C4BB2B8C6C02D7C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-29T17:11:49Z",
+    "last_updated": "2026-05-29T17:11:49Z",
+    "context": {
+      "id": "3E33151163474DC8BC212E2677",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-05-29T17:12:24Z",
+    "last_updated": "2026-05-29T17:12:24Z",
+    "context": {
+      "id": "3B8DB2CA20A947368319A8E90E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-29T17:12:32Z",
+    "last_updated": "2026-05-29T17:12:32Z",
+    "context": {
+      "id": "4EB6A55F7A2C4F848F6918E7D0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-05-29T17:12:59Z",
+    "last_updated": "2026-05-29T17:12:59Z",
+    "context": {
+      "id": "3E8F5064559C4A88B002915793",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-05-29T17:13:39Z",
+    "last_updated": "2026-05-29T17:13:39Z",
+    "context": {
+      "id": "A22759318E064C049805597FF7",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-29T17:16:48Z",
+    "last_updated": "2026-05-29T17:16:48Z",
+    "context": {
+      "id": "62B4D3519B5D428E8D7BD49A1D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-05-29T17:32:49Z",
+    "last_updated": "2026-05-29T17:32:49Z",
+    "context": {
+      "id": "73F019075AB84E3483720F9F14",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-29T17:42:39Z",
+    "last_updated": "2026-05-29T17:42:39Z",
+    "context": {
+      "id": "E3226DA4B80E495589E596AF17",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-05-29T22:54:42Z",
+    "last_updated": "2026-05-29T22:54:42Z",
+    "context": {
+      "id": "04606987A6674A038A6FCFE4E3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-05-29T22:56:42Z",
+    "last_updated": "2026-05-29T22:56:42Z",
+    "context": {
+      "id": "C6E388EBDD7640648546BB8082",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-05-29T22:57:42Z",
+    "last_updated": "2026-05-29T22:57:42Z",
+    "context": {
+      "id": "D95482924A8649B9B336AE8458",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-29T22:59:01Z",
+    "last_updated": "2026-05-29T22:59:01Z",
+    "context": {
+      "id": "2F36A6442AF14A3BAE408FE282",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-05-30T09:09:02Z",
+    "last_updated": "2026-05-30T09:09:02Z",
+    "context": {
+      "id": "8F5F05A913D549668EED7A53C4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-05-30T09:09:02Z",
+    "last_updated": "2026-05-30T09:09:02Z",
+    "context": {
+      "id": "772D2FA48E504387BCBA377E78",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-30T09:12:02Z",
+    "last_updated": "2026-05-30T09:12:02Z",
+    "context": {
+      "id": "CF80AD83986945A798C14106E0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-05-30T09:15:07Z",
+    "last_updated": "2026-05-30T09:15:07Z",
+    "context": {
+      "id": "B562C3C74CC34CF0AF45BB4BCF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-30T09:19:02Z",
+    "last_updated": "2026-05-30T09:19:02Z",
+    "context": {
+      "id": "694F005016334DE3B62A48691A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-30T09:28:55Z",
+    "last_updated": "2026-05-30T09:28:55Z",
+    "context": {
+      "id": "4E0BFE6324A24827B6A8541C84",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-05-30T14:15:08Z",
+    "last_updated": "2026-05-30T14:15:08Z",
+    "context": {
+      "id": "A1060B8D414A4332840B15F198",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-30T16:15:08Z",
+    "last_updated": "2026-05-30T16:15:08Z",
+    "context": {
+      "id": "C752610789C84F0C9187366A95",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep"
+    },
+    "last_changed": "2026-05-30T23:41:23Z",
+    "last_updated": "2026-05-30T23:41:23Z",
+    "context": {
+      "id": "E3C3AF05BD53429D825623D097",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-05-31T08:54:52Z",
+    "last_updated": "2026-05-31T08:54:52Z",
+    "context": {
+      "id": "CD9AFE4C642543968920B4837D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-05-31T08:54:52Z",
+    "last_updated": "2026-05-31T08:54:52Z",
+    "context": {
+      "id": "C68B7377D1B449A8999BCDDA44",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-31T08:57:52Z",
+    "last_updated": "2026-05-31T08:57:52Z",
+    "context": {
+      "id": "DC79009DD3EF4428BAD86AB994",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-05-31T09:01:02Z",
+    "last_updated": "2026-05-31T09:01:02Z",
+    "context": {
+      "id": "D5ABAF98CE8A473E8B20FB0093",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-05-31T09:04:52Z",
+    "last_updated": "2026-05-31T09:04:52Z",
+    "context": {
+      "id": "27FC95716427455CAD51A2CA72",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-31T09:16:21Z",
+    "last_updated": "2026-05-31T09:16:21Z",
+    "context": {
+      "id": "E6A628C92D9140C28878919937",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-05-31T14:29:09Z",
+    "last_updated": "2026-05-31T14:29:09Z",
+    "context": {
+      "id": "1141F90D2A014488A10B7BD7C7",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-05-31T16:29:09Z",
+    "last_updated": "2026-05-31T16:29:09Z",
+    "context": {
+      "id": "560F2415B9C44D97B34E429C9F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep"
+    },
+    "last_changed": "2026-05-31T23:27:58Z",
+    "last_updated": "2026-05-31T23:27:58Z",
+    "context": {
+      "id": "02CABC7FA6E2451BA06B338649",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-06-01T06:54:08Z",
+    "last_updated": "2026-06-01T06:54:08Z",
+    "context": {
+      "id": "C30DABF261A9431F829C197A89",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-01T06:58:22Z",
+    "last_updated": "2026-06-01T06:58:22Z",
+    "context": {
+      "id": "926312621C2B4ED58E74A48A35",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-01T07:00:22Z",
+    "last_updated": "2026-06-01T07:00:22Z",
+    "context": {
+      "id": "C4518159510341649AF773F036",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-01T07:03:48Z",
+    "last_updated": "2026-06-01T07:03:48Z",
+    "context": {
+      "id": "D5AEB27D88D04F799BBD8F9501",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-01T07:17:00Z",
+    "last_updated": "2026-06-01T07:17:00Z",
+    "context": {
+      "id": "974352E05FF2463A859024D142",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-06-01T08:06:13Z",
+    "last_updated": "2026-06-01T08:06:13Z",
+    "context": {
+      "id": "B062081B0A884861B97AE1A966",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-01T08:06:18Z",
+    "last_updated": "2026-06-01T08:06:18Z",
+    "context": {
+      "id": "A120724850C04773A68B1B2BCF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-01T08:06:21Z",
+    "last_updated": "2026-06-01T08:06:21Z",
+    "context": {
+      "id": "999B8918C81742C6B41CC1952F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-06-01T08:06:43Z",
+    "last_updated": "2026-06-01T08:06:43Z",
+    "context": {
+      "id": "36F6D8ED96FB4E59BAFF49D2AF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-01T08:06:45Z",
+    "last_updated": "2026-06-01T08:06:45Z",
+    "context": {
+      "id": "A69F2CF28A2440B7822DB6D598",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-06-01T08:07:13Z",
+    "last_updated": "2026-06-01T08:07:13Z",
+    "context": {
+      "id": "E80682D2129F490DA053B2DA5F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-06-01T08:07:43Z",
+    "last_updated": "2026-06-01T08:07:43Z",
+    "context": {
+      "id": "8D6A80A3AA03450698D3857BCB",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-06-01T08:21:13Z",
+    "last_updated": "2026-06-01T08:21:13Z",
+    "context": {
+      "id": "FA41805363714DF38D35C98064",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 51,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-06-01T09:17:13Z",
+    "last_updated": "2026-06-01T09:17:13Z",
+    "context": {
+      "id": "9851558A43A848FE84C3AE70E7",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 36,
+      "status": "Docked"
+    },
+    "last_changed": "2026-06-01T09:20:13Z",
+    "last_updated": "2026-06-01T09:20:13Z",
+    "context": {
+      "id": "48A65CEC74CA48C684681C3C6F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-01T17:09:28Z",
+    "last_updated": "2026-06-01T17:09:28Z",
+    "context": {
+      "id": "A65DBC1D01874AAEBC7B626C2A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-01T17:09:38Z",
+    "last_updated": "2026-06-01T17:09:38Z",
+    "context": {
+      "id": "F390062E8204413BA51C61B2C3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-06-01T17:10:13Z",
+    "last_updated": "2026-06-01T17:10:13Z",
+    "context": {
+      "id": "244F6B400D9D4A68ACECED25FE",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-01T17:10:21Z",
+    "last_updated": "2026-06-01T17:10:21Z",
+    "context": {
+      "id": "06B9435D8D164ACFA732A4BE07",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-06-01T17:11:27Z",
+    "last_updated": "2026-06-01T17:11:27Z",
+    "context": {
+      "id": "6E83D36997BF4AA49D6EB51802",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-06-01T17:11:28Z",
+    "last_updated": "2026-06-01T17:11:28Z",
+    "context": {
+      "id": "F91A59F6B22644B7AB5EF74475",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-01T17:14:41Z",
+    "last_updated": "2026-06-01T17:14:41Z",
+    "context": {
+      "id": "7B82A554DFD84357890E4AE6F9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-01T17:25:41Z",
+    "last_updated": "2026-06-01T17:25:41Z",
+    "context": {
+      "id": "7E1F2D3F3EBA4EF6A6BF5CB90A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-01T17:40:28Z",
+    "last_updated": "2026-06-01T17:40:28Z",
+    "context": {
+      "id": "73C4585112C24EA7A3D8B73F85",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-01T22:40:50Z",
+    "last_updated": "2026-06-01T22:40:50Z",
+    "context": {
+      "id": "8B45D77CF9CA4878BE8CEF0C2E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-06-01T22:42:50Z",
+    "last_updated": "2026-06-01T22:42:50Z",
+    "context": {
+      "id": "0D5C6E4283094AE0AE0E33151F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-06-01T22:43:50Z",
+    "last_updated": "2026-06-01T22:43:50Z",
+    "context": {
+      "id": "D28C71FCE0F64C80AF18C68697",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-01T22:46:36Z",
+    "last_updated": "2026-06-01T22:46:36Z",
+    "context": {
+      "id": "D7A42EA538FC4EA8833721DA03",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-06-02T06:57:12Z",
+    "last_updated": "2026-06-02T06:57:12Z",
+    "context": {
+      "id": "7CC240CFC1DF45E9B5B26A78B8",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-02T07:02:13Z",
+    "last_updated": "2026-06-02T07:02:13Z",
+    "context": {
+      "id": "E4A05077D95B49A7A8EED6C762",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-02T07:04:13Z",
+    "last_updated": "2026-06-02T07:04:13Z",
+    "context": {
+      "id": "0EEF906096D54274818315D8E4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-02T07:06:45Z",
+    "last_updated": "2026-06-02T07:06:45Z",
+    "context": {
+      "id": "AD81ECACB93F403FBB682C2682",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-02T07:17:56Z",
+    "last_updated": "2026-06-02T07:17:56Z",
+    "context": {
+      "id": "9AAF28C52746434C85AE9F0BC5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-06-02T08:06:28Z",
+    "last_updated": "2026-06-02T08:06:28Z",
+    "context": {
+      "id": "21E7129FCD3A4FEB82569CDF47",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-02T08:06:36Z",
+    "last_updated": "2026-06-02T08:06:36Z",
+    "context": {
+      "id": "BE8B6F5BF0DE4E86AEDEC4AE53",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-02T08:06:47Z",
+    "last_updated": "2026-06-02T08:06:47Z",
+    "context": {
+      "id": "02141E3821B54BBCA987F88306",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-06-02T08:06:58Z",
+    "last_updated": "2026-06-02T08:06:58Z",
+    "context": {
+      "id": "C5D5E6155C234BAE9EBD00794E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-06-02T08:07:28Z",
+    "last_updated": "2026-06-02T08:07:28Z",
+    "context": {
+      "id": "FA98D78C9CAE4F08AB2F1D98ED",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-06-02T08:07:58Z",
+    "last_updated": "2026-06-02T08:07:58Z",
+    "context": {
+      "id": "8B11DAD355AC41C59943EEED24",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-02T08:08:11Z",
+    "last_updated": "2026-06-02T08:08:11Z",
+    "context": {
+      "id": "949FA24567DD4874A46FC44864",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-06-02T08:22:41Z",
+    "last_updated": "2026-06-02T08:22:41Z",
+    "context": {
+      "id": "55DCCB6035164F85879AE886AF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 47,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-06-02T09:34:41Z",
+    "last_updated": "2026-06-02T09:34:41Z",
+    "context": {
+      "id": "B3C7F8FB980A46C18C54D1442E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 35,
+      "status": "Docked"
+    },
+    "last_changed": "2026-06-02T09:37:41Z",
+    "last_updated": "2026-06-02T09:37:41Z",
+    "context": {
+      "id": "7569491488C242AEAC35D2EC12",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-02T17:09:11Z",
+    "last_updated": "2026-06-02T17:09:11Z",
+    "context": {
+      "id": "2A9A50C070634098B82F602CD8",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-02T17:09:21Z",
+    "last_updated": "2026-06-02T17:09:21Z",
+    "context": {
+      "id": "68EE3C166B354E25AFBCACC4B6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-06-02T17:09:52Z",
+    "last_updated": "2026-06-02T17:09:52Z",
+    "context": {
+      "id": "B8308C5246F54ABB952C01287A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-06-02T17:09:56Z",
+    "last_updated": "2026-06-02T17:09:56Z",
+    "context": {
+      "id": "587005D141954049897626E0D6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-02T17:10:04Z",
+    "last_updated": "2026-06-02T17:10:04Z",
+    "context": {
+      "id": "8312244055E9449EB8B1BF5A52",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-06-02T17:11:11Z",
+    "last_updated": "2026-06-02T17:11:11Z",
+    "context": {
+      "id": "BC8928C599D14052B6F703A787",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-02T17:14:34Z",
+    "last_updated": "2026-06-02T17:14:34Z",
+    "context": {
+      "id": "6CFB288A74774B56836C17C936",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-02T17:25:08Z",
+    "last_updated": "2026-06-02T17:25:08Z",
+    "context": {
+      "id": "E10692AF39294CC1BE0839C149",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-02T17:40:11Z",
+    "last_updated": "2026-06-02T17:40:11Z",
+    "context": {
+      "id": "C575EF199F53479DAF4FAEDCD8",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-02T22:42:49Z",
+    "last_updated": "2026-06-02T22:42:49Z",
+    "context": {
+      "id": "5C0476069A37440EB588749C32",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-06-02T22:44:49Z",
+    "last_updated": "2026-06-02T22:44:49Z",
+    "context": {
+      "id": "9048DCF108544113807AE289A6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-06-02T22:45:49Z",
+    "last_updated": "2026-06-02T22:45:49Z",
+    "context": {
+      "id": "9783C6EE528B4831980D38873E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-02T22:46:27Z",
+    "last_updated": "2026-06-02T22:46:27Z",
+    "context": {
+      "id": "582AD42380564AAAA54EAF5499",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-06-03T06:57:26Z",
+    "last_updated": "2026-06-03T06:57:26Z",
+    "context": {
+      "id": "292582DE6E1B424886CC1EA84B",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-03T07:02:52Z",
+    "last_updated": "2026-06-03T07:02:52Z",
+    "context": {
+      "id": "045DB123F9C542439F590798A1",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-03T07:04:52Z",
+    "last_updated": "2026-06-03T07:04:52Z",
+    "context": {
+      "id": "EE41E19045E64B37A614894728",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-03T07:07:42Z",
+    "last_updated": "2026-06-03T07:07:42Z",
+    "context": {
+      "id": "1208082881824A6B869C13BA32",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-03T07:19:54Z",
+    "last_updated": "2026-06-03T07:19:54Z",
+    "context": {
+      "id": "3A9DC508A6D34EFFB038313647",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-06-03T08:01:07Z",
+    "last_updated": "2026-06-03T08:01:07Z",
+    "context": {
+      "id": "5D4F88B2D5C44BBC9FEF684C6C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-03T08:01:15Z",
+    "last_updated": "2026-06-03T08:01:15Z",
+    "context": {
+      "id": "B66449FBDF8449F68C745D3AA6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-03T08:01:19Z",
+    "last_updated": "2026-06-03T08:01:19Z",
+    "context": {
+      "id": "EB58D264EE414E83BAF565C608",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-06-03T08:01:37Z",
+    "last_updated": "2026-06-03T08:01:37Z",
+    "context": {
+      "id": "8CC724EA9EFD4685807B7F57B3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-06-03T08:02:07Z",
+    "last_updated": "2026-06-03T08:02:07Z",
+    "context": {
+      "id": "0D371FCB55D243AD98076F9D63",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-06-03T08:02:37Z",
+    "last_updated": "2026-06-03T08:02:37Z",
+    "context": {
+      "id": "EAA0EF18A84847FA8C39852B8D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-03T08:02:48Z",
+    "last_updated": "2026-06-03T08:02:48Z",
+    "context": {
+      "id": "0839F102318A49D18D4B6DF518",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-06-03T08:17:02Z",
+    "last_updated": "2026-06-03T08:17:02Z",
+    "context": {
+      "id": "8C408E94F9774D04AEC02D6E69",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 40,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-06-03T09:29:02Z",
+    "last_updated": "2026-06-03T09:29:02Z",
+    "context": {
+      "id": "0FD6AA38173A4BB098E5DB57C0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 34,
+      "status": "Docked"
+    },
+    "last_changed": "2026-06-03T09:32:02Z",
+    "last_updated": "2026-06-03T09:32:02Z",
+    "context": {
+      "id": "4F4BB0499C8F44BEB0867109DE",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-03T17:08:41Z",
+    "last_updated": "2026-06-03T17:08:41Z",
+    "context": {
+      "id": "A3C89767B10548D19F964BBFF4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-03T17:08:51Z",
+    "last_updated": "2026-06-03T17:08:51Z",
+    "context": {
+      "id": "4692C1A49D66437BAA5A29EB9E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-06-03T17:09:26Z",
+    "last_updated": "2026-06-03T17:09:26Z",
+    "context": {
+      "id": "327909B1062942718B988D3372",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-03T17:09:34Z",
+    "last_updated": "2026-06-03T17:09:34Z",
+    "context": {
+      "id": "30AC2A619950454DBD2EE1A73C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-06-03T17:09:44Z",
+    "last_updated": "2026-06-03T17:09:44Z",
+    "context": {
+      "id": "2797B62BBB0842429F5FB72ACF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-06-03T17:10:41Z",
+    "last_updated": "2026-06-03T17:10:41Z",
+    "context": {
+      "id": "BF1AC00E9E9D4C15BAB7A221C6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-03T17:13:36Z",
+    "last_updated": "2026-06-03T17:13:36Z",
+    "context": {
+      "id": "60877648EE774A17A58D2774DD",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-03T17:31:30Z",
+    "last_updated": "2026-06-03T17:31:30Z",
+    "context": {
+      "id": "00009F267A6D4EEC877112A7A9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-03T17:39:41Z",
+    "last_updated": "2026-06-03T17:39:41Z",
+    "context": {
+      "id": "BF094B74ECC445F7A9BA37D632",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-03T22:39:52Z",
+    "last_updated": "2026-06-03T22:39:52Z",
+    "context": {
+      "id": "63920F7639DB4C00AE8D25A5F8",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-06-03T22:41:52Z",
+    "last_updated": "2026-06-03T22:41:52Z",
+    "context": {
+      "id": "4E5A4037D0BD4B2CBC94FD01A5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-06-03T22:42:52Z",
+    "last_updated": "2026-06-03T22:42:52Z",
+    "context": {
+      "id": "956E95ACEAE24856998CF34684",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-03T22:44:29Z",
+    "last_updated": "2026-06-03T22:44:29Z",
+    "context": {
+      "id": "AFF73E3C6D4643FAA5F8BED51D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-06-04T06:52:19Z",
+    "last_updated": "2026-06-04T06:52:19Z",
+    "context": {
+      "id": "9E86A99E8D6A4B64B5500CFFEA",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-04T06:57:11Z",
+    "last_updated": "2026-06-04T06:57:11Z",
+    "context": {
+      "id": "9A3E375898C2437C87E78F554C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-04T06:59:11Z",
+    "last_updated": "2026-06-04T06:59:11Z",
+    "context": {
+      "id": "E187BD52A8A64659870441A898",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-04T07:01:44Z",
+    "last_updated": "2026-06-04T07:01:44Z",
+    "context": {
+      "id": "78E44FB7773C48C9B58FCFDB08",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-04T07:14:37Z",
+    "last_updated": "2026-06-04T07:14:37Z",
+    "context": {
+      "id": "70AB30F9ACDB4355A287481360",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-06-04T08:04:29Z",
+    "last_updated": "2026-06-04T08:04:29Z",
+    "context": {
+      "id": "2219EACC472D46E89A1515DE86",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-04T08:04:37Z",
+    "last_updated": "2026-06-04T08:04:37Z",
+    "context": {
+      "id": "6368E2306B1646E5964546434B",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-06-04T08:04:59Z",
+    "last_updated": "2026-06-04T08:04:59Z",
+    "context": {
+      "id": "FD3859B9DFF145E781A06772AA",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-04T08:05:28Z",
+    "last_updated": "2026-06-04T08:05:28Z",
+    "context": {
+      "id": "CDB08B287BDE4802BB277FD4FB",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-06-04T08:05:29Z",
+    "last_updated": "2026-06-04T08:05:29Z",
+    "context": {
+      "id": "4DF505D323FE482CA12C9C38D9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-04T08:05:49Z",
+    "last_updated": "2026-06-04T08:05:49Z",
+    "context": {
+      "id": "9EEBEE73AEE24849A5C4AC735C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-06-04T08:05:59Z",
+    "last_updated": "2026-06-04T08:05:59Z",
+    "context": {
+      "id": "6872F81EA0FC49BBBC56AB268D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-06-04T08:19:48Z",
+    "last_updated": "2026-06-04T08:19:48Z",
+    "context": {
+      "id": "42899FCE312942D2BB87A32252",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 42,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-06-04T09:27:48Z",
+    "last_updated": "2026-06-04T09:27:48Z",
+    "context": {
+      "id": "B92748419F8440B4B4908001B7",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 39,
+      "status": "Docked"
+    },
+    "last_changed": "2026-06-04T09:30:48Z",
+    "last_updated": "2026-06-04T09:30:48Z",
+    "context": {
+      "id": "593767F3305E40FABAB2B599A2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-04T17:01:14Z",
+    "last_updated": "2026-06-04T17:01:14Z",
+    "context": {
+      "id": "93FED20DB0B447658A7299E0F4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-04T17:01:24Z",
+    "last_updated": "2026-06-04T17:01:24Z",
+    "context": {
+      "id": "4D219D19EFBD4489BA8A6ACC60",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-06-04T17:01:31Z",
+    "last_updated": "2026-06-04T17:01:31Z",
+    "context": {
+      "id": "5320753C8D4348BBAE07584307",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-06-04T17:01:59Z",
+    "last_updated": "2026-06-04T17:01:59Z",
+    "context": {
+      "id": "F65BD66BB7134D6A88B06CE77F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-04T17:02:07Z",
+    "last_updated": "2026-06-04T17:02:07Z",
+    "context": {
+      "id": "3989724F90AC43CA8D206B41B2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-06-04T17:03:14Z",
+    "last_updated": "2026-06-04T17:03:14Z",
+    "context": {
+      "id": "BBB304BA1DA74ADBA79A29636B",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-04T17:06:16Z",
+    "last_updated": "2026-06-04T17:06:16Z",
+    "context": {
+      "id": "8E1E0A458D4A40758244812FDD",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-04T17:24:39Z",
+    "last_updated": "2026-06-04T17:24:39Z",
+    "context": {
+      "id": "84687A5C6F3F4E44B09C0A8257",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-04T17:32:14Z",
+    "last_updated": "2026-06-04T17:32:14Z",
+    "context": {
+      "id": "6A49397B7FB045C1974258A627",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-04T22:38:06Z",
+    "last_updated": "2026-06-04T22:38:06Z",
+    "context": {
+      "id": "1ABF2E073E73437F83D89C0332",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-06-04T22:40:06Z",
+    "last_updated": "2026-06-04T22:40:06Z",
+    "context": {
+      "id": "61E49FE534DC463B90105412AB",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-06-04T22:41:06Z",
+    "last_updated": "2026-06-04T22:41:06Z",
+    "context": {
+      "id": "23423651B2654DE786F9BD1385",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-04T22:41:48Z",
+    "last_updated": "2026-06-04T22:41:48Z",
+    "context": {
+      "id": "8381D5FA1089445D84BAD5C352",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-06-05T06:58:40Z",
+    "last_updated": "2026-06-05T06:58:40Z",
+    "context": {
+      "id": "3899062169EC4DBAA467F58B25",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-05T07:03:20Z",
+    "last_updated": "2026-06-05T07:03:20Z",
+    "context": {
+      "id": "8FBE33DE189B4EA29C71C94FFD",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-05T07:05:20Z",
+    "last_updated": "2026-06-05T07:05:20Z",
+    "context": {
+      "id": "63A387CA412D4CEBB4B5EF09F6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-05T07:07:18Z",
+    "last_updated": "2026-06-05T07:07:18Z",
+    "context": {
+      "id": "9572E677998946D788538FE16C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-05T07:18:27Z",
+    "last_updated": "2026-06-05T07:18:27Z",
+    "context": {
+      "id": "044360E01E864497BB14BD60EF",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-06-05T08:02:43Z",
+    "last_updated": "2026-06-05T08:02:43Z",
+    "context": {
+      "id": "5179871764714984AB064DDA9F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-05T08:02:51Z",
+    "last_updated": "2026-06-05T08:02:51Z",
+    "context": {
+      "id": "431B056A82C14022B115E1BF61",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-06-05T08:03:13Z",
+    "last_updated": "2026-06-05T08:03:13Z",
+    "context": {
+      "id": "DD2908FFCE554D0CAE6141EE2D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-06-05T08:03:43Z",
+    "last_updated": "2026-06-05T08:03:43Z",
+    "context": {
+      "id": "35266ED7CFCF42FCA381EF06E5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-05T08:03:55Z",
+    "last_updated": "2026-06-05T08:03:55Z",
+    "context": {
+      "id": "0CD417046F0148D4912E13A988",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-05T08:04:09Z",
+    "last_updated": "2026-06-05T08:04:09Z",
+    "context": {
+      "id": "A61A89330F444F3680CB65923E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-06-05T08:04:13Z",
+    "last_updated": "2026-06-05T08:04:13Z",
+    "context": {
+      "id": "F8E7313DEA2C4FCFACD79FF197",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-06-05T08:18:01Z",
+    "last_updated": "2026-06-05T08:18:01Z",
+    "context": {
+      "id": "8265842D9EDB4113B3D73514F9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 32,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-06-05T09:27:01Z",
+    "last_updated": "2026-06-05T09:27:01Z",
+    "context": {
+      "id": "A0E87E30710F4B1EB248FC0B2A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 40,
+      "status": "Docked"
+    },
+    "last_changed": "2026-06-05T09:30:01Z",
+    "last_updated": "2026-06-05T09:30:01Z",
+    "context": {
+      "id": "9347A094014141BDA91C2431C2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-05T17:04:00Z",
+    "last_updated": "2026-06-05T17:04:00Z",
+    "context": {
+      "id": "397DE493E432469A899A6439DD",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-05T17:04:10Z",
+    "last_updated": "2026-06-05T17:04:10Z",
+    "context": {
+      "id": "1AA86D2030AB4699BB1CD9D7C0",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-06-05T17:04:45Z",
+    "last_updated": "2026-06-05T17:04:45Z",
+    "context": {
+      "id": "E4AB54EFDAFB43EEB380C07BCC",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-05T17:04:53Z",
+    "last_updated": "2026-06-05T17:04:53Z",
+    "context": {
+      "id": "04FA10FC20B24E0D8FB5A277E6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-06-05T17:05:16Z",
+    "last_updated": "2026-06-05T17:05:16Z",
+    "context": {
+      "id": "548D722B75804CE2B47500E93F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-06-05T17:06:00Z",
+    "last_updated": "2026-06-05T17:06:00Z",
+    "context": {
+      "id": "9FB854966E9C419797336AE09D",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-05T17:08:59Z",
+    "last_updated": "2026-06-05T17:08:59Z",
+    "context": {
+      "id": "4E3C3788C08B42A78C26E06E78",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-05T17:28:01Z",
+    "last_updated": "2026-06-05T17:28:01Z",
+    "context": {
+      "id": "535804211356487EB20BF0031A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-05T17:35:00Z",
+    "last_updated": "2026-06-05T17:35:00Z",
+    "context": {
+      "id": "678EF66B0CA24FC6B6F3C1609B",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-05T22:43:34Z",
+    "last_updated": "2026-06-05T22:43:34Z",
+    "context": {
+      "id": "0545E0D29F1D49319498EEC135",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-06-05T22:45:34Z",
+    "last_updated": "2026-06-05T22:45:34Z",
+    "context": {
+      "id": "CF9CDCA98AB64EC8AA2304905A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-06-05T22:46:34Z",
+    "last_updated": "2026-06-05T22:46:34Z",
+    "context": {
+      "id": "6B67FC172B30442EA20C4CDF7F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-05T22:49:25Z",
+    "last_updated": "2026-06-05T22:49:25Z",
+    "context": {
+      "id": "0DA16A4839A64574BEAF3E8836",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-06T09:14:22Z",
+    "last_updated": "2026-06-06T09:14:22Z",
+    "context": {
+      "id": "CB65FA6BAA5947CD8F8E461B97",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-06T09:14:22Z",
+    "last_updated": "2026-06-06T09:14:22Z",
+    "context": {
+      "id": "263A8DF69D78435A9CB3673003",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-06T09:17:22Z",
+    "last_updated": "2026-06-06T09:17:22Z",
+    "context": {
+      "id": "593971FD1173499DABBF8D653C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-06T09:19:57Z",
+    "last_updated": "2026-06-06T09:19:57Z",
+    "context": {
+      "id": "18F3877BCE764A26AA3D5C5E06",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-06T09:24:22Z",
+    "last_updated": "2026-06-06T09:24:22Z",
+    "context": {
+      "id": "27A5AFC8AD3C41F4AF709338E4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-06T09:34:50Z",
+    "last_updated": "2026-06-06T09:34:50Z",
+    "context": {
+      "id": "5F203E61EEAE4BB982D4A2BB99",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-06T14:16:32Z",
+    "last_updated": "2026-06-06T14:16:32Z",
+    "context": {
+      "id": "3642401E83FA4FB6BC18A36D3C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-06T18:16:32Z",
+    "last_updated": "2026-06-06T18:16:32Z",
+    "context": {
+      "id": "78E86FF4176A4E9CA1C0EF5338",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep"
+    },
+    "last_changed": "2026-06-06T23:40:37Z",
+    "last_updated": "2026-06-06T23:40:37Z",
+    "context": {
+      "id": "35063E9B96FB49AF852890B5EE",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-07T08:54:06Z",
+    "last_updated": "2026-06-07T08:54:06Z",
+    "context": {
+      "id": "DA113EC496B94FFAA23B7CD277",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-07T08:54:06Z",
+    "last_updated": "2026-06-07T08:54:06Z",
+    "context": {
+      "id": "CC304E0E86ED4BB099888E3BF6",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-07T08:57:06Z",
+    "last_updated": "2026-06-07T08:57:06Z",
+    "context": {
+      "id": "5B499D02630B4D03A164B87DA8",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-07T09:02:30Z",
+    "last_updated": "2026-06-07T09:02:30Z",
+    "context": {
+      "id": "3A09E8C406C84AFD8B0D003DFB",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-07T09:04:06Z",
+    "last_updated": "2026-06-07T09:04:06Z",
+    "context": {
+      "id": "23AA7D9D99484AFEA941FB960E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-07T09:14:33Z",
+    "last_updated": "2026-06-07T09:14:33Z",
+    "context": {
+      "id": "F0A9ADE7CDEB410199EFBC9952",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-07T13:50:02Z",
+    "last_updated": "2026-06-07T13:50:02Z",
+    "context": {
+      "id": "D3EB403F83EC4B72AF28D5D822",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-07T16:50:02Z",
+    "last_updated": "2026-06-07T16:50:02Z",
+    "context": {
+      "id": "EF6E676948F643C5B4892E953A",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep"
+    },
+    "last_changed": "2026-06-07T23:20:23Z",
+    "last_updated": "2026-06-07T23:20:23Z",
+    "context": {
+      "id": "8DEF65F4EF36418FAD0C2C4342",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 78,
+      "friendly_name": "Philips Air Cleaner"
+    },
+    "last_changed": "2026-06-08T06:54:56Z",
+    "last_updated": "2026-06-08T06:54:56Z",
+    "context": {
+      "id": "40F9425EA67C4003BD5338BDC7",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "on",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Pohyb ložnice"
+    },
+    "last_changed": "2026-06-08T06:59:52Z",
+    "last_updated": "2026-06-08T06:59:52Z",
+    "context": {
+      "id": "C351B6066BAC49898B5AC0A675",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.motion_bedroom",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-08T07:01:52Z",
+    "last_updated": "2026-06-08T07:01:52Z",
+    "context": {
+      "id": "84C03003C8624FF783C1DA91E2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – kávovar",
+      "current_power_w": 1200
+    },
+    "last_changed": "2026-06-08T07:03:22Z",
+    "last_updated": "2026-06-08T07:03:22Z",
+    "context": {
+      "id": "65C46113429B40DC864E0C7FC9",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_coffee",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-08T07:14:59Z",
+    "last_updated": "2026-06-08T07:14:59Z",
+    "context": {
+      "id": "2ADEF40D292C45F18C01A82504",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "friendly_name": "Vstupní dveře"
+    },
+    "last_changed": "2026-06-08T08:03:02Z",
+    "last_updated": "2026-06-08T08:03:02Z",
+    "context": {
+      "id": "64BC6DB05A314EB98D77796650",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-08T08:03:10Z",
+    "last_updated": "2026-06-08T08:03:10Z",
+    "context": {
+      "id": "223B45E5184F4442BE3DC0D98C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "router",
+      "friendly_name": "Telefon majitele"
+    },
+    "last_changed": "2026-06-08T08:03:32Z",
+    "last_updated": "2026-06-08T08:03:32Z",
+    "context": {
+      "id": "49F0E968176D43B68706E0D947",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-08T08:03:51Z",
+    "last_updated": "2026-06-08T08:03:51Z",
+    "context": {
+      "id": "4ECF4C1619F34A2585929DD141",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 78
+    },
+    "last_changed": "2026-06-08T08:04:02Z",
+    "last_updated": "2026-06-08T08:04:02Z",
+    "context": {
+      "id": "631882B434CF4D2A8222C18877",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "away",
+      "friendly_name": "Kamera vstupní dveře"
+    },
+    "last_changed": "2026-06-08T08:04:32Z",
+    "last_updated": "2026-06-08T08:04:32Z",
+    "context": {
+      "id": "A6C85A6B00B247BCA33E75B079",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – lampa",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-08T08:04:43Z",
+    "last_updated": "2026-06-08T08:04:43Z",
+    "context": {
+      "id": "402AAEBD97DA48D9BD9CBC3EF4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "cleaning",
+    "attributes": {
+      "battery_level": 100,
+      "status": "Cleaning",
+      "fan_speed": "auto",
+      "friendly_name": "Roomba"
+    },
+    "last_changed": "2026-06-08T08:16:59Z",
+    "last_updated": "2026-06-08T08:16:59Z",
+    "context": {
+      "id": "B3154D978D1B4E3FB9F29FF954",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "returning",
+    "attributes": {
+      "battery_level": 39,
+      "status": "Returning home"
+    },
+    "last_changed": "2026-06-08T09:26:59Z",
+    "last_updated": "2026-06-08T09:26:59Z",
+    "context": {
+      "id": "C06A8A81648148ED9B10072142",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "vacuum.roomba",
+    "state": "docked",
+    "attributes": {
+      "battery_level": 48,
+      "status": "Docked"
+    },
+    "last_changed": "2026-06-08T09:29:59Z",
+    "last_updated": "2026-06-08T09:29:59Z",
+    "context": {
+      "id": "B67F2C774D06480793676D3A24",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.phone_owner",
+    "state": "home",
+    "attributes": {
+      "source_type": "router"
+    },
+    "last_changed": "2026-06-08T17:06:09Z",
+    "last_updated": "2026-06-08T17:06:09Z",
+    "context": {
+      "id": "983F4B84572947379F756DFBEA",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "turbo",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-08T17:06:19Z",
+    "last_updated": "2026-06-08T17:06:19Z",
+    "context": {
+      "id": "7D68A6868227461A97A4C69187",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "on",
+    "attributes": {},
+    "last_changed": "2026-06-08T17:06:54Z",
+    "last_updated": "2026-06-08T17:06:54Z",
+    "context": {
+      "id": "5C37346171494F04AB53665E2F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.door_contact_front",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-08T17:07:02Z",
+    "last_updated": "2026-06-08T17:07:02Z",
+    "context": {
+      "id": "43B4E8622AF644F8B863491F2C",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – varná konvice",
+      "current_power_w": 2000
+    },
+    "last_changed": "2026-06-08T17:07:26Z",
+    "last_updated": "2026-06-08T17:07:26Z",
+    "context": {
+      "id": "F58B1BD06FF94A6D9C4E638362",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "idle",
+    "attributes": {
+      "motion_detection": false,
+      "mode": "home"
+    },
+    "last_changed": "2026-06-08T17:08:09Z",
+    "last_updated": "2026-06-08T17:08:09Z",
+    "context": {
+      "id": "21C97F1CC4A7472085A0D3F94B",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_kettle",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-08T17:10:51Z",
+    "last_updated": "2026-06-08T17:10:51Z",
+    "context": {
+      "id": "D0C14598EC624BD5BA093DC2C3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 85
+    },
+    "last_changed": "2026-06-08T17:23:45Z",
+    "last_updated": "2026-06-08T17:23:45Z",
+    "context": {
+      "id": "63BDA77E0E1D4125876B9FCD0F",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "medium",
+      "filter_life_remaining": 77
+    },
+    "last_changed": "2026-06-08T17:37:09Z",
+    "last_updated": "2026-06-08T17:37:09Z",
+    "context": {
+      "id": "959C6CBABF974D6498D96EE53E",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Smart plug – TV",
+      "current_power_w": 0
+    },
+    "last_changed": "2026-06-08T22:47:45Z",
+    "last_updated": "2026-06-08T22:47:45Z",
+    "context": {
+      "id": "A295072FE4134CFB929EEBEDF5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "fan.philips_air_cleaner",
+    "state": "on",
+    "attributes": {
+      "preset_mode": "sleep",
+      "filter_life_remaining": 76
+    },
+    "last_changed": "2026-06-08T22:49:45Z",
+    "last_updated": "2026-06-08T22:49:45Z",
+    "context": {
+      "id": "6886631D7C354666A7292BA448",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "camera.front_door",
+    "state": "recording",
+    "attributes": {
+      "motion_detection": true,
+      "mode": "night"
+    },
+    "last_changed": "2026-06-08T22:50:45Z",
+    "last_updated": "2026-06-08T22:50:45Z",
+    "context": {
+      "id": "B7CD9579CC86485EBC00622D60",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  {
+    "entity_id": "switch.smart_plug_lamp",
+    "state": "off",
+    "attributes": {},
+    "last_changed": "2026-06-08T22:51:56Z",
+    "last_updated": "2026-06-08T22:51:56Z",
+    "context": {
+      "id": "2B6A0E6DAB0A434EB1073E0B82",
+      "user_id": null,
+      "parent_id": null
+    }
+  }
+]
